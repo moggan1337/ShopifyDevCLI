@@ -1,0 +1,1 @@
+{"version":3,"file":"project-generator.d.ts","sourceRoot":"","sources":["../../src/services/project-generator.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,WAAW,EAAiC,MAAM,aAAa,CAAC;AAM9E,qBAAa,gBAAgB;IAC3B,OAAO,CAAC,WAAW,CAAc;;IAM3B,QAAQ,CAAC,OAAO,EAAE,WAAW,GAAG,OAAO,CAAC,IAAI,CAAC;IA4DnD,OAAO,CAAC,WAAW;IAuPnB,OAAO,CAAC,iBAAiB;IAezB,OAAO,CAAC,mBAAmB;CAsB5B"}

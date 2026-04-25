@@ -1,0 +1,70 @@
+{
+  "name": "@shopify/dev-cli",
+  "version": "1.0.0",
+  "description": "AI-Powered Shopify App Development CLI",
+  "type": "module",
+  "bin": {
+    "shopify": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest",
+    "lint": "eslint src/**/*.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "shopify",
+    "cli",
+    "app",
+    "development",
+    "graphql",
+    "webhooks",
+    "ai"
+  ],
+  "author": "moggan1337",
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^6.0.1",
+    "@oclif/core": "^4.0.0",
+    "@oclif/plugin-autocomplete": "^3.0.0",
+    "@oclif/plugin-help": "^6.0.0",
+    "@oclif/plugin-not-found": "^3.0.0",
+    "@oclif/plugin-plugins": "^5.0.0",
+    "chalk": "^5.3.0",
+    "cli-highlight": "^2.1.11",
+    "conf": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "execa": "^9.5.1",
+    "fast-glob": "^3.3.2",
+    "graphql": "^16.9.0",
+    "graphql-request": "^7.1.0",
+    "https-proxy-agent": "^7.0.5",
+    "inquirer": "^12.0.1",
+    "listr2": "^8.2.4",
+    "localtunnel": "^2.0.2",
+    "log-symbols": "^6.0.0",
+    "nanoid": "^5.0.7",
+    "node-fetch": "^3.3.2",
+    "open": "^10.1.0",
+    "ora": "^8.1.0",
+    "semver": "^7.6.3",
+    "simple-git": "^3.27.0",
+    "toml": "^3.0.0",
+    "tsx": "^4.19.2",
+    "yaml": "^2.6.0",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.23.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.4",
+    "@types/semver": "^7.5.8",
+    "eslint": "^9.14.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
