@@ -13,14 +13,7 @@
 
 ## About
 
-ShopifyDev CLI transforms how developers build Shopify apps. Instead of spending hours writing boilerplate code, simply describe what you need in plain English and let the AI generate production-ready code.
-
-**Key Benefits:**
-- ⚡ **10x faster development** — Generate code in seconds, not hours
-- 🧠 **AI-powered** — Uses MiniMax-M2.7 model for intelligent code generation
-- 📝 **Production-ready** — All generated code follows Shopify best practices
-- 🔄 **Full stack** — Generate frontend, backend, GraphQL, and Liquid templates
-- 🎯 **Type-safe** — Full TypeScript support with generated types
+ShopifyDev CLI transforms how developers build Shopify apps. Instead of spending hours writing boilerplate code, simply describe what you need in plain English and let the AI generate production-ready code. Built on Claude Code patterns with MiniMax AI integration, it's designed for Shopify developers who want to accelerate their workflow with AI-powered code generation for apps, webhooks, GraphQL queries, and Liquid templates.
 
 ## ✨ Features
 
